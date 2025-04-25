@@ -179,6 +179,8 @@ dependencies = [
 dev = [
     { name = "pyright" },
     { name = "pytest" },
+    { name = "ruff" },
+
 ]
 
 [package.metadata]
@@ -191,6 +193,8 @@ requires-dist = [
 dev = [
     { name = "pyright", specifier = ">=1.1.389" },
     { name = "pytest", specifier = ">=8.3.5" },
+    { name = "ruff", specifier = ">=0.11.7" },
+
 ]
 
 [[package]]
