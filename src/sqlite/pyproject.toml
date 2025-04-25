@@ -27,3 +27,4 @@ mcp-server-sqlite = "mcp_server_sqlite:main"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+asyncio_mode = "auto"
